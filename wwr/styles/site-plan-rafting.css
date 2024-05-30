@@ -6,10 +6,10 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #00eeff   ;
+  --secondary-color: #21641e ;
+  --accent1-color: hsl(247, 96%, 35%);
+  --accent2-color: rgb(85, 199, 70);
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'Oswald', sans-serif, serif;
@@ -21,10 +21,10 @@ Fonts are separated by a & */
   --paragraph-color-on-white: #657571; /* paragraph text on a white background */ 
   --paragraph-color-on-color: Black; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-link-color: var(--primary-color);
+  --nav-background-color: var(--secondary-color);
+  --nav-hover-link-color: var(--accent1-color);
+  --nav-hover-background-color: var(--accent2-color);
 }
 
 
