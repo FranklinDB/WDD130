@@ -1,0 +1,166 @@
+:root {
+--primary-color: #FFFFFF   ;
+  --secondary-color: #F1F4F8;
+  --accent1-color: #2474D2;
+  --accent2-color: #142D4E;
+}
+
+header {
+display: grid;
+grid-template-columns: auto 1fr;
+align-items: center;
+justify-content: space-between;
+background-color: #FFFFFF;
+padding: 10px 100px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+nav {
+    grid-column: 2;
+    display: flex;
+    gap: 30px;
+    margin-left: 250px;
+}
+
+nav a {
+    color: Black;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.gray-section {
+    background-color: #dadada;
+    padding: 75px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+  text-align: center;
+}
+
+main h1 {
+    color: #000000;
+    font-size: 36px;
+}
+
+
+main p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 25px;
+}
+
+.amp-rack {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.amp-rack-image {
+    width: 40%;
+    height: auto;
+}
+
+.amp-rack-text {
+    flex: 1;
+    text-align: center;
+}
+
+.amp-rack-title {
+    color: #316E95;
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+.amp-rack-description {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+
+.ferrules {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.ferrules-image {
+  width: auto;
+  height: 400px;
+  margin-left: 175px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.ferrules-title {
+    display: flex;
+    color: #316E95;
+    font-size: 36px;
+    align-items: flex-start;
+    margin-right: 300px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #2474D2;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #142D4E;
+}
+
+h1 {
+  text-align: center;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.services-banner {
+margin-top: 25px;
+display: grid;
+justify-content: space-between;
+align-items: center;
+}
+
+.services-banner-img,
+.services-banner p {
+    grid-area: 1 / 1;
+}
+
+.services-banner-img {
+    width: 100%;
+    height: auto;
+}
+
+.services-banner p {
+    font-size: 40px;
+    display: flex;
+    align-items: flex-start;    
+    text-align: center;
+}
